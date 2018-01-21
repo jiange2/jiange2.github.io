@@ -69,8 +69,12 @@ body{
     box-shadow: 3px 3px 15px -7px #444444;
 
     @media (max-width: 768px) {
-      margin-left: 0;
+      &{
+        margin-left: 0;
+        padding: 10px;
+      }
     }
+
     &:before{
       &:hover{
         box-shadow: 3px 3px 12px -3px #000;

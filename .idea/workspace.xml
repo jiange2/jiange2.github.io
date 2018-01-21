@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f048ac01-26bd-4170-93b7-61c3e5f59854" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/post.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change beforePath="$PROJECT_DIR$/_includes/navbar.html" afterPath="$PROJECT_DIR$/_includes/navbar.html" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-10-LintCode-3-digitCount.markdown" afterPath="$PROJECT_DIR$/_posts/2018-01-10-LintCode-3-digitCount.markdown" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-10-LintCode-4-123.markdown" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/common.scss" afterPath="$PROJECT_DIR$/css/common.scss" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/css/home.scss" afterPath="$PROJECT_DIR$/css/home.scss" />
+      <change beforePath="$PROJECT_DIR$/css/post.scss" afterPath="$PROJECT_DIR$/css/post.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -76,16 +67,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/post.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="462">
+              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
               <folding>
                 <element signature="e#234#387#0" expanded="false" />
                 <element signature="e#401#674#0" expanded="false" />
                 <element signature="e#688#983#0" expanded="false" />
-                <element signature="e#1296#1891#0" expanded="false" />
+                <element signature="e#1339#1934#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -164,10 +155,10 @@
         <option value="$PROJECT_DIR$/_posts/2018-01-10-LintCode-3-digitCount.markdown" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/css/common.scss" />
-        <option value="$PROJECT_DIR$/css/post.scss" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/navbar.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/css/post.scss" />
       </list>
     </option>
   </component>
@@ -294,7 +285,7 @@
       <workItem from="1515647554556" duration="5000" />
       <workItem from="1516426828818" duration="9411000" />
       <workItem from="1516458679358" duration="523000" />
-      <workItem from="1516500665255" duration="19842000" />
+      <workItem from="1516500665255" duration="19938000" />
     </task>
     <task id="LOCAL-00001" summary="test markdown">
       <created>1515566128691</created>
@@ -345,16 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1516540087390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="post样式模版">
+      <created>1516542841650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1516542841650</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36715000" />
+    <option name="totallyTimeSpent" value="36811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -384,7 +382,8 @@
     <MESSAGE value="test markdown" />
     <MESSAGE value="主页模版" />
     <MESSAGE value="home.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="home.css" />
+    <MESSAGE value="post样式模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="post样式模版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -709,19 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#234#387#0" expanded="false" />
-            <element signature="e#401#674#0" expanded="false" />
-            <element signature="e#688#983#0" expanded="false" />
-            <element signature="e#1296#1891#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -743,6 +729,19 @@
         <state relative-caret-position="306">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="e#234#387#0" expanded="false" />
+            <element signature="e#401#674#0" expanded="false" />
+            <element signature="e#688#983#0" expanded="false" />
+            <element signature="e#1339#1934#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,167 @@
+.container {
+  width: 990px; }
+
+@media (max-width: 990px) {
+  .container {
+    width: 100%; } }
+@media (max-width: 760px) {
+  .container {
+    padding: 0px; } }
+.container {
+  width: 990px; }
+
+@media (max-width: 990px) {
+  .container {
+    width: 100%; } }
+@media (max-width: 760px) {
+  .container {
+    padding: 0px; } }
+.nav-bar {
+  background-color: #FFF;
+  height: 60px;
+  box-shadow: 0 0 12px -3px #000;
+  padding: 10px; }
+  .nav-bar .container {
+    line-height: 40px; }
+    .nav-bar .container .logo {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 24px;
+      color: #0f0f0f; }
+      .nav-bar .container .logo:hover {
+        text-decoration: none; }
+
+.footer {
+  line-height: 40px;
+  background: #FFF;
+  border-top: 1px solid #dee8ef;
+  padding: 10px; }
+  .footer .container {
+    text-align: right; }
+  .footer .icon-list {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 0; }
+    .footer .icon-list .icon {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0;
+      position: relative; }
+      .footer .icon-list .icon a {
+        text-align: center;
+        display: block;
+        background-color: #e3e3e3;
+        border-radius: 50%;
+        border: 1px solid #dee8ef;
+        width: 36px;
+        line-height: 36px;
+        margin: 0 3px; }
+        .footer .icon-list .icon a:hover {
+          background-color: #cecece; }
+        .footer .icon-list .icon a img {
+          width: 28px;
+          height: 28px;
+          vertical-align: middle; }
+      .footer .icon-list .icon .hidden-img {
+        position: absolute;
+        left: -125px;
+        z-index: 9999;
+        bottom: 50px; }
+        .footer .icon-list .icon .hidden-img img {
+          border: 1px solid #dee8ef;
+          box-shadow: 3px 3px 12px -3px #000;
+          width: 300px; }
+        .footer .icon-list .icon .hidden-img:after {
+          content: "";
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          border-right: 1px solid #dee8ef;
+          border-bottom: 1px solid #dee8ef;
+          background-color: #f0f0f0;
+          box-shadow: 3px 3px 12px -3px #000;
+          transform: rotate(45deg);
+          bottom: -6px;
+          left: 45%; }
+      .footer .icon-list .icon .wechat-img:after {
+        background-color: #FFF; }
+
+body {
+  background-color: #f3f6f7; }
+
+.post-item {
+  width: 100%;
+  margin-top: 0;
+  padding-bottom: 40px;
+  position: relative;
+  height: 100%;
+  display: inline-block; }
+  .post-item:before {
+    width: 1px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: inherit;
+    border-left: 2px solid #dee8ef;
+    content: ""; }
+  .post-item .time-line {
+    position: absolute;
+    width: 100px;
+    padding-top: 20px; }
+    .post-item .time-line .avatar-box {
+      width: 100px;
+      text-align: center; }
+      .post-item .time-line .avatar-box img {
+        border: 1px solid #dee8ef;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%; }
+  .post-item .post-info {
+    width: 100px;
+    margin-top: 20px;
+    text-align: center; }
+    .post-item .post-info .date {
+      width: 80px;
+      padding: 5px 1px;
+      text-align: center;
+      border: 1px solid #dee8ef;
+      background: #dee8ef;
+      border-radius: 10px;
+      font-size: 13px;
+      color: #6e7c86; }
+  .post-item .post-item-box {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #dee8ef;
+    position: relative;
+    padding: 20px 40px;
+    box-shadow: 3px 3px 15px -7px #444444; }
+    @media (max-width: 768px) {
+      .post-item .post-item-box {
+        margin-left: 0;
+        padding: 10px; } }
+    .post-item .post-item-box:before {
+      box-shadow: 3px 3px 15px -7px #000;
+      content: "";
+      position: absolute;
+      left: -.6em;
+      top: 28px;
+      width: 1em;
+      height: 1em;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transition: background .1s linear;
+      transition: background .1s linear;
+      background-color: #fff;
+      border-left: 1px solid #dee8ef;
+      border-bottom: 1px solid #dee8ef;
+      z-index: 2; }
+      .post-item .post-item-box:before:hover {
+        box-shadow: 3px 3px 12px -3px #000; }
+
+/*# sourceMappingURL=post.css.map */

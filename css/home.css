@@ -6,7 +6,7 @@
     width: 100%; } }
 @media (max-width: 760px) {
   .container {
-    padding: 0; } }
+    padding: 0px; } }
 .container {
   width: 990px; }
 
@@ -15,7 +15,7 @@
     width: 100%; } }
 @media (max-width: 760px) {
   .container {
-    padding: 0; } }
+    padding: 0px; } }
 .nav-bar {
   background-color: #FFF;
   height: 60px;

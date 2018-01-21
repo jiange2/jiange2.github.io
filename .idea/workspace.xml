@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f048ac01-26bd-4170-93b7-61c3e5f59854" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -295,7 +294,7 @@
       <workItem from="1515647554556" duration="5000" />
       <workItem from="1516426828818" duration="9411000" />
       <workItem from="1516458679358" duration="523000" />
-      <workItem from="1516500665255" duration="20187000" />
+      <workItem from="1516500665255" duration="20318000" />
     </task>
     <task id="LOCAL-00001" summary="test markdown">
       <created>1515566128691</created>
@@ -367,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516543059470</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="微调">
+      <created>1516543182123</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516543182123</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37060000" />
+    <option name="totallyTimeSpent" value="37191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -409,7 +415,8 @@
     <MESSAGE value="post样式模版" />
     <MESSAGE value="适应屏幕" />
     <MESSAGE value="post.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="post.css" />
+    <MESSAGE value="微调" />
+    <option name="LAST_COMMIT_MESSAGE" value="微调" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

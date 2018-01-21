@@ -1,0 +1,80 @@
+@import "var";
+
+.footer{
+  line-height: 40px;
+  background: #FFF;
+  border-top: 1px solid  $border-color;
+  padding: 10px;
+
+  .container{
+    text-align: right;
+  }
+
+
+  .icon-list{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 0;
+
+    .icon{
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0;
+      position: relative;
+
+      a{
+        text-align: center;
+        display: block;
+        background-color: #e3e3e3;
+        border-radius: 50%;
+        border: 1px solid $border-color;
+        width: 36px;
+        line-height: 36px;
+        margin: 0 3px;
+
+        &:hover{
+          background-color: #cecece;
+        }
+
+        img{
+          width: 28px;
+          height: 28px;
+          vertical-align: middle;
+        }
+
+
+      }
+
+      .hidden-img{
+        position: absolute;
+        left: -125px;
+        z-index: 9999;
+        bottom: 50px;
+
+        img{
+          border: 1px solid  $border-color;
+          box-shadow: 3px 3px 12px -3px #000;
+          width: 300px;
+        }
+        &:after{
+          content: "";
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          border-right: 1px solid  $border-color;
+          border-bottom: 1px solid  $border-color;
+          background-color: #f0f0f0;
+          box-shadow: 3px 3px 12px -3px #000;
+          transform: rotate(45deg);
+          bottom: -6px;
+          left: 45%;
+        }
+      }
+
+      .wechat-img:after{
+        background-color: #FFF;
+      }
+    }
+  }
+}

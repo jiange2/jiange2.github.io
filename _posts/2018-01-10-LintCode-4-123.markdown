@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "3. 统计数字"
+title:      "4. 统计数字"
 author:     "jiange"
 tag:        "lintcode"
 previewImg: "http://t1.aixinxi.net/o_1c4c67jtf1ommpdcg6k83cdda.png-w.jpg"

@@ -1,0 +1,34 @@
+<div class="footer">
+    <div class="container clearfix">
+        <div class="pull-right" style="padding-left: 20px">
+            <a>联系我</a>
+        </div>
+        <ul class="list-inline icon-list">
+            <li class="icon">
+                <a href="img/qrcode-qq.jpg" class="qq-btn"><img src="icon/qq.png"></a>
+                <div class="hidden-img" hidden>
+                    <img src="img/qrcode-qq.jpg">
+                </div>
+            </li>
+            <li class="icon"><a href="img/qrcode-wechat.png">
+                <img src="icon/wechat.png"></a>
+                <div class="hidden-img wechat-img" hidden>
+                    <img src="img/qrcode-wechat.png">
+                </div>
+            </li>
+            <li class="icon"><a href="https://github.com/jiange2"><img src="icon/github.png"></a></li>
+        </ul>
+    </div>
+    <script>
+
+        window.onload = function (ev) {
+            $('.icon-list .icon a').on('mouseover',function () {
+                $(this).nextAll('.hidden-img').show();
+            });
+            $('.icon-list .icon a').on('mouseleave',function () {
+                $(this).nextAll('.hidden-img').hide();
+            });
+        }
+
+    </script>
+</div>

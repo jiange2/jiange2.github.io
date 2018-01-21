@@ -1,0 +1,23 @@
+@import "common";
+
+.nav-bar{
+  background-color: #FFF;
+  height: 60px;
+  box-shadow: 0 0 12px -3px #000;
+  padding: 10px;
+
+  .container{
+    line-height: 40px;
+
+    .logo{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 24px;
+      color: #0f0f0f;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}

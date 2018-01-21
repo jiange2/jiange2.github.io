@@ -5,5 +5,14 @@
 }
 
 @media (max-width: 990px) {
-  width: 100%;
+  .container{
+    width: 100%;
+  }
 }
+
+@media (max-width: 760px) {
+  .container{
+    padding: 0;
+  }
+}
+

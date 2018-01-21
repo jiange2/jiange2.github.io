@@ -5,18 +5,22 @@
         </div>
         <ul class="list-inline icon-list">
             <li class="icon">
-                <a href="img/qrcode-qq.jpg" class="qq-btn"><img src="icon/qq.png"></a>
+                <a href="{{ BASE_PATH }}/img/qrcode-qq.jpg" class="qq-btn">
+                    <img src="{{ BASE_PATH }}/icon/qq.png">
+                </a>
                 <div class="hidden-img" hidden>
-                    <img src="img/qrcode-qq.jpg">
+                    <img src="{{ BASE_PATH }}/img/qrcode-qq.jpg">
                 </div>
             </li>
-            <li class="icon"><a href="img/qrcode-wechat.png">
-                <img src="icon/wechat.png"></a>
+            <li class="icon"><a href="{{ BASE_PATH }}/img/qrcode-wechat.png">
+                <img src="{{ BASE_PATH }}/icon/wechat.png"></a>
                 <div class="hidden-img wechat-img" hidden>
-                    <img src="img/qrcode-wechat.png">
+                    <img src="{{ BASE_PATH }}/img/qrcode-wechat.png">
                 </div>
             </li>
-            <li class="icon"><a href="https://github.com/jiange2"><img src="icon/github.png"></a></li>
+            <li class="icon"><a href="https://github.com/jiange2">
+                <img src="{{ BASE_PATH }}/icon/github.png"></a>
+            </li>
         </ul>
     </div>
     <script>

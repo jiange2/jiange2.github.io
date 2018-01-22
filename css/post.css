@@ -70,7 +70,7 @@
         bottom: 50px; }
         .footer .icon-list .icon .hidden-img img {
           border: 1px solid #dee8ef;
-          box-shadow: 3px 3px 12px -3px #000;
+          box-shadow: 5px 5px 20px -8px #000;
           width: 300px; }
         .footer .icon-list .icon .hidden-img:after {
           content: "";
@@ -80,7 +80,7 @@
           border-right: 1px solid #dee8ef;
           border-bottom: 1px solid #dee8ef;
           background-color: #f0f0f0;
-          box-shadow: 3px 3px 12px -3px #000;
+          box-shadow: 8px 8px 20px -5px #000;
           transform: rotate(45deg);
           bottom: -6px;
           left: 45%; }

@@ -70,7 +70,7 @@
         bottom: 50px; }
         .footer .icon-list .icon .hidden-img img {
           border: 1px solid #dee8ef;
-          box-shadow: 3px 3px 12px -3px #000;
+          box-shadow: 5px 5px 20px -8px #000;
           width: 300px; }
         .footer .icon-list .icon .hidden-img:after {
           content: "";
@@ -80,7 +80,7 @@
           border-right: 1px solid #dee8ef;
           border-bottom: 1px solid #dee8ef;
           background-color: #f0f0f0;
-          box-shadow: 3px 3px 12px -3px #000;
+          box-shadow: 8px 8px 20px -5px #000;
           transform: rotate(45deg);
           bottom: -6px;
           left: 45%; }
@@ -163,14 +163,14 @@ body {
           border: 1px solid #dee8ef;
           position: relative;
           padding: 20px 40px;
-          box-shadow: 3px 3px 15px -7px #444444; }
+          box-shadow: 5px 5px 20px -8px #000; }
           @media (max-width: 768px) {
             body .posts .post-item .post-item-box .post-item-wrap {
               padding: 10px 20px; } }
           body .posts .post-item .post-item-box .post-item-wrap:hover {
-            box-shadow: 3px 3px 12px -3px #000; }
+            box-shadow: 6px 6px 20px -5px #000; }
           body .posts .post-item .post-item-box .post-item-wrap:before {
-            box-shadow: 3px 3px 15px -7px #000;
+            box-shadow: 5px 5px 20px -8px #000;
             content: "";
             position: absolute;
             left: -.6em;
@@ -188,7 +188,7 @@ body {
             border-bottom: 1px solid #dee8ef;
             z-index: 2; }
             body .posts .post-item .post-item-box .post-item-wrap:before:hover {
-              box-shadow: 3px 3px 12px -3px #000; }
+              box-shadow: 5px 5px 20px -8px #000; }
           body .posts .post-item .post-item-box .post-item-wrap .title {
             color: #0078c9; }
           body .posts .post-item .post-item-box .post-item-wrap .preview-img-wrap {

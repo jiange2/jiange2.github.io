@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/footer.scss" afterPath="$PROJECT_DIR$/css/footer.scss" />
       <change beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/css/home.css.map" afterPath="$PROJECT_DIR$/css/home.css.map" />
-      <change beforePath="$PROJECT_DIR$/css/home.scss" afterPath="$PROJECT_DIR$/css/home.scss" />
       <change beforePath="$PROJECT_DIR$/css/post.css" afterPath="$PROJECT_DIR$/css/post.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,8 +62,8 @@
       <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+            <state relative-caret-position="279">
+              <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding>
                 <element signature="e#380#788#0" expanded="false" />
               </folding>
@@ -231,7 +229,7 @@
       <workItem from="1516458679358" duration="523000" />
       <workItem from="1516500665255" duration="20318000" />
       <workItem from="1516591581594" duration="7038000" />
-      <workItem from="1516610375231" duration="1943000" />
+      <workItem from="1516610375231" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="test markdown">
       <created>1515566128691</created>
@@ -338,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516610524879</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="阴影微调">
+      <created>1516612325148</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1516612325148</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46172000" />
+    <option name="totallyTimeSpent" value="46542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -382,7 +387,8 @@
     <MESSAGE value="适应屏幕" />
     <MESSAGE value="微调" />
     <MESSAGE value="更改logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改logo" />
+    <MESSAGE value="阴影微调" />
+    <option name="LAST_COMMIT_MESSAGE" value="阴影微调" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -742,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+        <state relative-caret-position="279">
+          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="e#380#788#0" expanded="false" />
           </folding>

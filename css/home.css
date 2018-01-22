@@ -190,8 +190,7 @@ body {
             body .posts .post-item .post-item-box .post-item-wrap:before:hover {
               box-shadow: 3px 3px 12px -3px #000; }
           body .posts .post-item .post-item-box .post-item-wrap .title {
-            color: #0078c9;
-            font-size: 27px; }
+            color: #0078c9; }
           body .posts .post-item .post-item-box .post-item-wrap .preview-img-wrap {
             max-height: 180px;
             overflow: hidden; }

@@ -29,9 +29,31 @@ body{
         width: 100px;
         padding-top: 20px;
 
+
+        @media (max-width: 768px) {
+          &{
+            z-index: 2;
+            width: 100%;
+          }
+          &:before{
+            z-index: -1;
+            position: absolute;
+            top: 60px;
+            height: 1px;
+            border-top: 1px solid $border-color;
+            width: 100%;
+            content: "";
+          }
+        }
+
+
         .avatar-box{
           width: 100px;
           text-align: center;
+
+          @media (max-width: 768px) {
+            display: inline-block;
+          }
 
           img{
             border: 1px solid  $border-color;
@@ -46,6 +68,10 @@ body{
         width: 100px;
         margin-top: 20px;
         text-align: center;
+
+        @media (max-width: 768px) {
+          display: inline-block;
+        }
 
         .date{
           width: 80px;
@@ -62,6 +88,7 @@ body{
       .post-item-box{
         padding-left: 120px;
         @media (max-width: 768px) {
+          padding-top: 120px;
           padding-left: 0;
         }
         width: 100%;

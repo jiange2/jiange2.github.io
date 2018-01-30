@@ -6,6 +6,8 @@ tag:        "lintcode"
 previewImg: "https://raw.githubusercontent.com/jiange2/photo/master/lintcode/4.%E4%B8%91%E6%95%B0/title.PNG"
 ---
 
+[http://www.lintcode.com/zh-cn/problem/ugly-number-ii/](http://www.lintcode.com/zh-cn/problem/ugly-number-ii/ "4. 丑数 II")
+
 ![](https://raw.githubusercontent.com/jiange2/photo/master/lintcode/4.%E4%B8%91%E6%95%B0/title.PNG)
 
 因为丑数只含素因子2，3，5。所以 任一丑数 = 2或3或5 * 更小的丑数（因为丑数素因子只由2 3 5组成,所以分解出了一个2或3或5，剩下部分仍是丑数）
@@ -24,14 +26,14 @@ previewImg: "https://raw.githubusercontent.com/jiange2/photo/master/lintcode/4.%
 
 不难看出这是一个 从左到右从上到下递增 的二维数组。我们可以把每行的第一个 (2\*a1,3\*a1,5\*a1) 进行比较,然后选出其最小值(2\*a1),就是第二项。然后把刚刚选出最小值那行的下一个(2\*a2)以及刚刚没被选上的数(3\*a1,5\*a2)进行比较得出第三项.以此类推...
 
-需要注意的是因为3项比较有可能出现值相等的情况(2\*a3(2\*3) 和 3\*a2(3\*2))，这个时候需要把都为最小值的行都推到下一个.(2\*a3 和 3\*a2 下一轮变成 2\*a4 和 3\*a3)。
+需要注意的是因为有可能出现值相等的情况(2\*a3(2\*3) 和 3\*a2(3\*2))，这个时候需要把都为最小值的行都推到下一个.(2\*a3 和 3\*a2 下一轮变成 2\*a4 和 3\*a3)。
 
 代码:
 
 	public int nthUglyNumber(int n) {
         int[] r = new int[n];
         r[0] = 1;
-        //分别指向 2 3 5 乘到了第几项
+        //分别是 2 3 5 乘到了第几项
         int t2 = 0,t3 = 0,t5 = 0;
         int i = 1;
         while (i < n){

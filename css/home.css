@@ -7,6 +7,9 @@
 @media (max-width: 760px) {
   .container {
     padding: 0px; } }
+body {
+  min-height: 665px; }
+
 .container {
   width: 990px; }
 
@@ -16,6 +19,9 @@
 @media (max-width: 760px) {
   .container {
     padding: 0px; } }
+body {
+  min-height: 665px; }
+
 .nav-bar {
   background-color: #FFF;
   height: 60px;

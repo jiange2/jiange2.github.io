@@ -65,9 +65,11 @@
           vertical-align: middle; }
       .footer .icon-list .icon .hidden-img {
         position: absolute;
-        left: -125px;
+        left: -132px;
         z-index: 9999;
-        bottom: 50px; }
+        bottom: 80px;
+        transition: all 0.5s cubic-bezier(0.67, 0.21, 0.44, 1.45);
+        opacity: 0; }
         .footer .icon-list .icon .hidden-img img {
           border: 1px solid #dee8ef;
           box-shadow: 5px 5px 20px -8px #000;
@@ -83,7 +85,7 @@
           box-shadow: 8px 8px 20px -5px #000;
           transform: rotate(45deg);
           bottom: -9px;
-          left: 45%; }
+          left: 48%; }
       .footer .icon-list .icon .wechat-img:after {
         background-color: #FFF; }
 

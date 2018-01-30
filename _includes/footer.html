@@ -8,13 +8,13 @@
                 <a href="{{ BASE_PATH }}/img/qrcode-qq.jpg" class="qq-btn">
                     <img src="{{ BASE_PATH }}/icon/qq.png">
                 </a>
-                <div class="hidden-img" hidden>
+                <div class="hidden-img" >
                     <img src="{{ BASE_PATH }}/img/qrcode-qq.jpg">
                 </div>
             </li>
             <li class="icon"><a href="{{ BASE_PATH }}/img/qrcode-wechat.png">
                 <img src="{{ BASE_PATH }}/icon/wechat.png"></a>
-                <div class="hidden-img wechat-img" hidden>
+                <div class="hidden-img wechat-img" >
                     <img src="{{ BASE_PATH }}/img/qrcode-wechat.png">
                 </div>
             </li>
@@ -24,15 +24,13 @@
         </ul>
     </div>
     <script>
-
         window.onload = function (ev) {
             $('.icon-list .icon a').on('mouseover',function () {
-                $(this).nextAll('.hidden-img').show();
+                $(this).nextAll('.hidden-img').css({opacity: 1,bottom:'60px'});
             });
             $('.icon-list .icon a').on('mouseleave',function () {
-                $(this).nextAll('.hidden-img').hide();
+                $(this).nextAll('.hidden-img').css({opacity: 0,bottom:'80px'});
             });
         }
-
     </script>
 </div>

@@ -48,9 +48,11 @@
 
       .hidden-img{
         position: absolute;
-        left: -125px;
+        left: -132px;
         z-index: 9999;
-        bottom: 50px;
+        bottom: 80px;
+        transition: all .5s cubic-bezier(.67,.21,.44,1.45);
+        opacity: 0;
 
         img{
           border: 1px solid  $border-color;
@@ -68,7 +70,7 @@
           box-shadow: 8px 8px 20px -5px #000;
           transform: rotate(45deg);
           bottom: -9px;
-          left: 45%;
+          left: 48%;
         }
       }
 

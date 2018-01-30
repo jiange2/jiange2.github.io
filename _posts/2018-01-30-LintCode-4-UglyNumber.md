@@ -12,10 +12,12 @@ previewImg: "https://raw.githubusercontent.com/jiange2/photo/master/lintcode/4.%
 
 所以用2 3 5 * 其他丑数，可以求得所有丑数
 
-加入an是丑数数列，那丑数的全集就是
+假如an是丑数数列，那丑数的全集就是
 
 2*a1 2*a2 ... 2*an
+
 3*a1 3*a2 ... 2*an
+
 5*a1 5*a2 ... 2*an
 
 我们把1作为丑数的第一项a1

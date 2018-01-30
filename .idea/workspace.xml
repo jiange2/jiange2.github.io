@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f048ac01-26bd-4170-93b7-61c3e5f59854" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-30-LintCode-4-UglyNumber.md" afterPath="$PROJECT_DIR$/_posts/2018-01-30-LintCode-4-UglyNumber.md" />
-      <change beforePath="$PROJECT_DIR$/css/common.scss" afterPath="$PROJECT_DIR$/css/common.scss" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/css/home.css.map" afterPath="$PROJECT_DIR$/css/home.css.map" />
-      <change beforePath="$PROJECT_DIR$/css/post.css" afterPath="$PROJECT_DIR$/css/post.css" />
-      <change beforePath="$PROJECT_DIR$/css/post.css.map" afterPath="$PROJECT_DIR$/css/post.css.map" />
-    </list>
+    <list default="true" id="f048ac01-26bd-4170-93b7-61c3e5f59854" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -251,7 +242,7 @@
       <workItem from="1516610375231" duration="2465000" />
       <workItem from="1516620194368" duration="2740000" />
       <workItem from="1517313615446" duration="577000" />
-      <workItem from="1517314666426" duration="621000" />
+      <workItem from="1517314666426" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="test markdown">
       <created>1515566128691</created>
@@ -376,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50632000" />
+    <option name="totallyTimeSpent" value="50633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />

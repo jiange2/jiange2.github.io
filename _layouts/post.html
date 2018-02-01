@@ -44,5 +44,23 @@
     </div>
 </div>
 {% include footer.html %}
+<script>
+
+    $(function () {
+       $('code').each(function () {
+          var $this = $(this);
+          var text = $this.text();
+          var rowCount = text.split('\n').length - 1;
+          var ele = $('<div class="code-pre"></div>');
+          var i = 1;
+          console.log(text);
+          while (i <= rowCount){
+              ele.append(i++ + '<br>');
+          }
+          $this.text(text);
+          $this.parent().prepend(ele);
+       });
+    });
+</script>
 </body>
 </html>

@@ -16,7 +16,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # this means to ignore newlines until "baseurl:"
-title: 剑戈Blog
+title: 香草山博客
 email: 992975556@qq.com
 description: >-
   剑戈的Github Pages
